@@ -1,0 +1,35 @@
+/**************************************************************************************************
+
+ Author      : Shehab Tarek
+ Description : Assignment 1 - EX 5
+ **************************************************************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+	float a,b;
+
+
+	printf("Enter the 1st Value\n");
+	fflush(stdout);
+	scanf("%f" , &a);
+	fflush(stdin);
+	printf("Enter the 2nd Value\n");
+	fflush(stdout);
+	scanf("%f" , &b);
+	fflush(stdin);
+
+	a = a+b;
+	b=a-b;
+	a=a-b;
+
+
+	printf("value of a is : %f \n ",a);
+	printf("value of b is : %f \n ",b);
+
+	return 0;
+
+}
